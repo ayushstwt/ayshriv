@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ayshriv</title>
+    <link rel="stylesheet" type="text/css" href="SRC/style/style.css">
+    <link rel="icon" href="Assets/favicons/favico.png" type="image/png" sizes="32x32">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+<!-- Hello -->
+    <header class="header" id="header">
+        <a href="index.html" class="logo"><span class="main-icon"></span><span>Ayshriv</span></a>
+
+        <div class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="SRC/pages/skills.html">Skills</a>
+            <a href="SRC/pages/education.html">Education</a>
+            <a href="SRC/pages/gallery.html">Gallery</a>
+            <a href="SRC/pages/career.html">Experience</a>
+            <a href="SRC/pages/hobbies.html">Project</a>
+            <a href="SRC/pages/testimonials.html">Testimonials</a>
+        </div>
+
+        <div class="main">
+            <a href="SRC/pages/contact.html" class="user main-items"><i class="fas fa-envelope cm-icon"></i>Contact
+                Me</a>
+            <div class="main-items menu-icon-container" id="menu-icon-js">
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="column right">
+                    <img src="Assets/Ayush.jpeg" alt="">
+                </div>
+                <div class="column left">
+                    <div class="text">I'm Ayush Shrivastava and I'm a <span id="typed" class="iAm"></span></div>
+                    <p>
+                        Java Developer specializing in Spring Boot, RESTful APIs, and Microservices. I build scalable, high-performance applications with Hibernate for database efficiency and Spring Security for strong authentication. I focus on clean, maintainable code, using design patterns to optimize solutions. With experience in both monolithic and microservice architectures, I’m committed to continuous learning and delivering impactful, future-ready applications. <br> Let's collaborate!
+
+                    </p>
+                    <div class="buttons">
+                        <a href="#">Download CV</a>
+                        <a href="SRC/pages/contact.html" class="cm-button">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="left">
+                &copy; 2024 • Ayshriv • All Rights Reserved
+            </div>
+            <div class="right">
+                <div class="social"><a href="https://x.com/ayshriv" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a></div>
+                <div class="social"><a href="https://dev.to/ayshriv" target="_blank"><i class="fa-brands fa-dev"></i></a></div>
+                <div class="social"><a href="https://www.linkedin.com/in/ayshriv/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                <div class="social"><a href="https://github.com/ishrivasayush" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="nav-touch-close" id="nav-tc-js"></div>
+
+    <script type="text/javascript" src="SRC/script/script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['Java Developer', 'Backend Engineer', 'Technical Content Writer'],
+            typeSpeed: 55,
+        });
+    </script>
+
+</body>
+
+</html>
