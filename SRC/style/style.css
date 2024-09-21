@@ -15,7 +15,7 @@ img {
 
 :root {
 	/* --bg-color: radial-gradient(circle at 60% 50%, rgba(238,174,202,1) 0%, rgb(127, 172, 224) 100%); */
-	--bg-color: radial-gradient(circle at 70% 50%, rgb(226, 224, 225) 0%, rgb(145, 167, 192) 100%);
+	--bg-color: radial-gradient(circle at 70% 50%, rgb(245, 245, 245) 0%, rgb(54, 109, 122) 100%);
 	--text-color: #363636;
 	--main-color: brown;
 	/* --main-color: hsl(250, 52%, 36%); */
